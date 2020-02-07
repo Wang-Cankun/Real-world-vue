@@ -1,16 +1,8 @@
 <template>
-  <h1>Events Listing</h1>
+  <div>
+    <h1>Events Listing</h1>
+    <router-link :to="{ name: 'event-show', params: { id: '1' } }"
+      >Showing event #1
+    </router-link>
+  </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      key: 'a',
-      key2: 'b'
-    }
-  }
-}
-</script>
-
-<style lang="scss" scoped></style>
