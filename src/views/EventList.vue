@@ -3,7 +3,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      key: 'a',
+      key2: 'b'
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>
